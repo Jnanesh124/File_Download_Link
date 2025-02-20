@@ -127,7 +127,7 @@ async def start_command(client: Client, message: Message):
                 "✅ Your token has been successfully verified and is valid for 24 hours.\n\n"
             )
             get_file_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("JOIN UPDATE CHANNEL", url=f"https://t.me/ROCKERSBACKUP")]
+                [InlineKeyboardButton("JOIN UPDATE CHANNEL", url=f"https://t.me/+RuyR33sijIZjZTFl")]
             ])
             await client.send_photo(
                 chat_id=message.chat.id,
@@ -266,7 +266,7 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = f"https://t.me/+rmz5f_q49qk5ZmZl")
+                url = f"https://t.me/+-Cn5CGSDJBEwMTc1")
         ],[
             InlineKeyboardButton(
                 "Join Channel",
@@ -277,7 +277,7 @@ async def not_joined(client: Client, message: Message):
         ],[
             InlineKeyboardButton(
                 "Join Channel",
-                url = f"https://t.me/+cw0DyuLqmdk1NTE1")
+                url = f"https://t.me/+fdbDsWmd2t0xNTBl")
     ]]
     try:
         buttons.append(
