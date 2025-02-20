@@ -22,16 +22,16 @@ from shortzy import Shortzy
 
 # List of image URLs for random selection
 IMAGE_URLS = [
-    "https://i.imghippo.com/files/BQx2300LAc.jpg",
-    "https://i.imghippo.com/files/BQx2300LAc.jpg",
-    "https://i.imghippo.com/files/BQx2300LAc.jpg"
+    "https://ibb.co/DPBk438D",
+    "https://ibb.co/DPBk438D",
+    "https://ibb.co/DPBk438D"
 ]
 
 # List of image URLs for random selection
 IMAGEX_URLS = [
-    "https://i.imghippo.com/files/xlj2728M.jpg",
-    "https://i.imghippo.com/files/xlj2728M.jpg",
-    "https://i.imghippo.com/files/xlj2728M.jpg"
+    "https://ibb.co/GQ6msyGT",
+    "https://ibb.co/GQ6msyGT",
+    "https://ibb.co/GQ6msyGT"
 ]
 
 client = MongoClient(DB_URI)  # Replace with your MongoDB URI
@@ -127,7 +127,7 @@ async def start_command(client: Client, message: Message):
                 "✅ Your token has been successfully verified and is valid for 24 hours.\n\n"
             )
             get_file_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("JOIN ADULT UPDATE CHANNEL", url=f"https://t.me/+-uJZnBO06H8xZTY1")]
+                [InlineKeyboardButton("JOIN UPDATE CHANNEL", url=f"https://t.me/ROCKERSBACKUP")]
             ])
             await client.send_photo(
                 chat_id=message.chat.id,
