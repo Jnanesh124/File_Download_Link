@@ -266,18 +266,21 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = f"https://t.me/+-Cn5CGSDJBEwMTc1")
+                url = f"https://t.me/+F_eSn0uJZN1mZTc1"),
+            InlineKeyboardButton(
+                "start Bot",
+                url = f"https://t.me/+4Al6SI8oLaJiOTll"),
         ],[
             InlineKeyboardButton(
                 "Join Channel",
                 url = client.invitelink),
             InlineKeyboardButton(
                 "start Bot",
-                url = f"https://t.me/Adult_Videos_Membership_Bot"),
+                url = f"https://t.me/ROCKERSBACKUP"),
         ],[
             InlineKeyboardButton(
                 "Join Channel",
-                url = f"https://t.me/+fdbDsWmd2t0xNTBl")
+                url = f"https://t.me/+n55-fDIxiYMyNzQ1")
     ]]
     try:
         buttons.append(
